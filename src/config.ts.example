@@ -1,0 +1,9 @@
+const config = {
+    port: 5000,
+    mongoUrl: "", #Mongo URL String
+    jwtSecret: "", #JWT Secret String
+    baseUrl: "http://localhost:5000", #Base URL String
+    mailPassword: "" #GMail App Password String
+}
+
+export default config
